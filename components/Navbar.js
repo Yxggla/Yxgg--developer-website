@@ -37,7 +37,7 @@ export default function Navbar() {
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
-            About{" "}
+            关于{" "}
             {router.asPath === "/about" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ export default function Navbar() {
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
-            Projects
+            项目{" "}
             {router.asPath === "/projects" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ export default function Navbar() {
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
-            Experience{" "}
+            经历{" "}
             {router.asPath === "/experience" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +112,7 @@ export default function Navbar() {
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
-            Contact
+            联系
             {router.asPath === "/contact" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -213,25 +213,25 @@ export default function Navbar() {
           href="/about"
           className="text-base font-normal text-gray-600 dark:text-gray-300"
         >
-          About
+          关于
         </Link>
         <Link
           href="/projects"
           className="text-base font-normal text-gray-600 dark:text-gray-300"
         >
-          Projects
+          项目
         </Link>
         <Link
           href="/experience"
           className="text-base font-normal text-gray-600 dark:text-gray-300"
         >
-          Experience
+          经历
         </Link>
         <Link
           href="/contact"
           className="text-base font-normal text-gray-600 dark:text-gray-300"
         >
-          Contact
+          联系
         </Link>
       </div>
     </div>

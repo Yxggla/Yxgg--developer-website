@@ -1,11 +1,11 @@
 const userData = {
   githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
+  name: "董一孝",
+  designation: "Yxggla个人网站",
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "yxggzhk@gmail.com",
+  phone: "+86 13957495770",
+  address: "杭州市, 浙江省, 中国",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -50,14 +50,13 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "我是一名前端开发爱好者，从影视走向代码，我坚信在AI引领的新时代，数字媒体将迎来前所未有的变革。",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      "我叫董一孝，来自浙江科技大学信息与电子工程学院，数字媒体技术专业。很庆幸自己生在AI的新时代，如今有了AI的助力，许多事情都变得更加方便和高效。",
+      "从高中起，我便对摄影充满热情，这也促使我选择了与影视相关的数字媒体技术专业。在大学期间，我有幸与志同道合的伙伴们一起拍摄了几部微电影，并获得了不错的成绩。",
+      "大三时，我开始接触前端开发，并结合AI，发现网页制作也是一种创作的表达方式，并没有想象中那么困难。自此，我开始深入学习JavaScript和TypeScript语言，掌握了React和Flutter等框架，并逐渐发现了许多好用的开发工具。",
+      "在兴趣的引导下，我现在可以为一个项目开发网页或APP。这种可视化的成果与影视创作有异曲同工之妙，带给我极大的成就感。",
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
   },
   experience: [
     {
@@ -82,25 +81,25 @@ const userData = {
       desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
     },
     {
-      title: "Internship",
-      company: "Intel Corporation",
-      year: "2019",
+      title: "实习",
+      company: "浙江方圆检测集团有限公司",
+      year: "2022-07～2022-08",
       companyLink: "https://intel.com",
       desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
     },
     {
-      title: "Graduation",
-      company: "UPES, Dehradun.",
-      year: "2019",
+      title: "蓝桥杯大赛",
+      company: "视觉艺术设计赛",
+      year: "2022-06",
       companyLink: "https://upes.co.in",
-      desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
+      desc: "作品《你好 未来》荣获第十三届蓝桥杯全国软件和信息技术专业人才大赛-视觉艺术设计赛全国总决赛视频设计类三等奖。",
     },
     {
-      title: "High School",
-      company: "Delhi Public School, Jaipur.",
-      year: "2015",
-      companyLink: "https://upes.co.in",
-      desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
+      title: "大学本科",
+      company: "浙江科技大学",
+      year: "2021-2025",
+      companyLink: "https://www.zust.edu.cn/",
+      desc: "信息与电子工程学院，数字媒体技术专业。班长，预备党员，GPA3.55，前10%。",
     },
   ],
   resumeUrl:
