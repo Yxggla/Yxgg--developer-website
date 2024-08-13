@@ -17,7 +17,7 @@ export default function Experience() {
               <ExperienceCard
                 key={idx}
                 title={exp.title}
-                desc={exp.desc}
+                desc={<span dangerouslySetInnerHTML={{ __html: exp.desc }} />}
                 year={exp.year}
                 company={exp.company}
                 companyLink={exp.companyLink}
@@ -40,11 +40,11 @@ export default function Experience() {
 
 const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
   return (
-    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
-      <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-300 font-bold dark:text-gray-700">
+    <div className="relative experience-card border p-6 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
+      <h1 className="absolute -top-10 md:-left-10 md:-top-12 text-4xl text-gray-300 font-bold dark:text-gray-700">
         {year}
       </h1>
-      <h1 className="font-semibold text-xl">{title}</h1>
+      <h1 className="font-semibold text-2xl">{title}</h1>
       <a href={companyLink} className="text-gray-500">
         {company}
       </a>
