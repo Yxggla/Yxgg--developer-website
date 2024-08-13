@@ -18,7 +18,7 @@ const userData = {
       imgUrl: "/placeholdertech.png",
     },
     {
-      title: "Unity-逃生太空站小游戏",
+      title: "Flutter-财票通App",
       link: "https://manuarora.in",
       imgUrl: "/portfolio.png",
     },
@@ -28,7 +28,7 @@ const userData = {
       imgUrl: "/covidrescue.png",
     },
     {
-      title: "Flutter-财票通App",
+      title: "Unity-逃生太空站小游戏",
       link: "https://algochurn.com",
       imgUrl: "/algochurn.png",
     },
