@@ -1,5 +1,5 @@
 const userData = {
-  githubUsername: "manuarora700",
+  githubUsername: "Yxggla",
   name: "董一孝",
   designation: "Yxggla个人网站",
   avatarUrl: "/avatar.png",
@@ -8,18 +8,18 @@ const userData = {
   address: "杭州市, 浙江省, 中国",
   projects: [
     {
-      title: "全栈-类ChatGpt项目",
-      link: "https://tailwindmasterkit.com",
+      title: "React-前端-类ChatGpt项目",
+      link: "https://github.com/Yxggla/DeepSeekAPI-ViteTsReact",
       imgUrl: "/tmk.jpg",
     },
     {
-      title: "React-模版后台",
-      link: "https://placeholdertech.in",
+      title: "Nodejs-后端-类ChatGpt项目",
+      link: "https://github.com/Yxggla/DeepSeekAPI--Web--backend",
       imgUrl: "/placeholdertech.png",
     },
     {
       title: "Flutter-财票通App",
-      link: "https://manuarora.in",
+      link: "https://github.com/Yxggla/cptapp",
       imgUrl: "/portfolio.png",
     },
     {
@@ -126,12 +126,7 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
-    peerlist: "https://peerlist.io/manuarora",
+    github: "https://github.com/Yxggla",
   },
 };
 
