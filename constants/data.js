@@ -14,7 +14,7 @@ const userData = {
     },
     {
       title: "Nodejs-后端-类ChatGpt项目",
-      link: "https://github.com/Yxggla/DeepSeekAPI--Web--backend",
+      link: "https://github.com/Yxggla/DeepSeekAPI--Web-backend",
       imgUrl: "/placeholdertech.png",
     },
     {
