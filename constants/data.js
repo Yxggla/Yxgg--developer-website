@@ -64,7 +64,7 @@ const userData = {
       company: "时代涌现信息科技（南京）有限公司",
       year: "2024-03～09",
       companyLink: "https://www.fancy.tech/",
-      desc: "FancyTech成立于2020年，致力于通过自主研发的AIGC技术在商业领域实现更广泛的商业价值。。<br />主要参与remotion的视频模板编写，海外官网，后台模板库。<br />1.熟练利用css动画制作remotion视频模板，与设计团队合作，编写可复用的remotion模板。<br />2.参与使用Next.js开发的公司海外官网制作，主要技术栈使用React,TS,Tailwind,Sass。<br />3.参与开发后台模板库，主要技术栈使用React,Tailwind,Sass,Axios,Zustand,Antd等。",
+      desc: "FancyTech成立于2020年，致力于通过自主研发的AIGC技术在商业领域实现更广泛的商业价值。。<br />主要参与remotion的视频模板编写，海外官网，后台模板库。<br />1. 熟练利用css动画制作remotion视频模板，与设计团队合作，编写可复用的remotion模板。<br />2. 参与使用Next.js开发的公司海外官网制作，主要技术栈使用React,TS,Tailwind,Sass。<br />3. 参与开发后台模板库，主要技术栈使用React,Tailwind,Sass,Axios,Zustand,Antd等。",
     },
     {
       title: "亚运会志愿者",
@@ -99,7 +99,7 @@ const userData = {
       company: "浙江方圆检测集团有限公司",
       year: "2022-07～08",
       companyLink: "https://www.fytest.com/",
-      desc: "浙江方圆检测集团有限公司是一家专业从事产品检测、认证、计量校准的综合性第三方检测机构。<br />1.通过帆软对方圆检测集团智慧大脑进行优化，增添了相关内容，提升了用户视觉体验。<br />2. 制作了方圆检测集团在线预约开放实验室系统上线的宣传短视频，吸引了更多用户的关注了解。",
+      desc: "浙江方圆检测集团有限公司是一家专业从事产品检测、认证、计量校准的综合性第三方检测机构。<br />1. 通过帆软对方圆检测集团智慧大脑进行优化，增添了相关内容，提升了用户视觉体验。<br />2. 制作了方圆检测集团在线预约开放实验室系统上线的宣传短视频，吸引了更多用户的关注了解。",
     },
     {
       title: "蓝桥杯大赛（B类）",
