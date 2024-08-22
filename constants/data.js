@@ -29,23 +29,23 @@ const userData = {
     },
     {
       title: "Unity-逃生太空站小游戏",
-      link: "https://algochurn.com",
+      link: "https://github.com/Yxggla/Unity-last-and-least",
       imgUrl: "/algochurn.png",
     },
     {
       title: "Flutter-健身记录App",
-      link: "https://play.placeholdertech.in",
+      link: "https://github.com/Yxggla/FlutterJs",
       imgUrl: "/playground.png",
     },
     {
-      title: "Flutter-宋韵App",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
+      title: "交互动画-OpenAI的人工智能技术简介",
+      link: "https://github.com/Yxggla/-OpenAI-interactive-animation/",
+      imgUrl: "/OpenAI-interactive-animation.png",
     },
     {
       title: "Blender-空间站",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
+      link: "https://github.com/Yxggla/BlenderKJZ",
+      imgUrl: "/BlenderKJZ1.jpg",
     },
   ],
   about: {
