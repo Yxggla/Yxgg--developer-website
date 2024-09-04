@@ -60,6 +60,13 @@ const userData = {
   },
   experience: [
     {
+      title: "大学本科",
+      company: "浙江科技大学",
+      year: "2021-2025",
+      companyLink: "https://www.zust.edu.cn/",
+      desc: "信息与电子工程学院，数字媒体技术专业。班长，预备党员，GPA3.55，前10%。",
+    },
+    {
       title: "前端开发实习生",
       company: "时代涌现信息科技（南京）有限公司",
       year: "2024-03～09",
@@ -95,6 +102,13 @@ const userData = {
       desc: "作品《畲•裕》在2022年第十届浙江省大学生摄影竞赛中荣获三等奖",
     },
     {
+      title: "获得证书",
+      company: "工业和信息化部人才交流中心",
+      year: "2022-08-09",
+      companyLink: "https://www.fytest.com/",
+      desc: "人工智能计算机视觉架构师中级证书",
+    },
+    {
       title: "信息中心助理实习生",
       company: "浙江方圆检测集团有限公司",
       year: "2022-07～08",
@@ -108,13 +122,7 @@ const userData = {
       companyLink: "https://upes.co.in",
       desc: "作品《你好 未来》荣获第十三届蓝桥杯全国软件和信息技术专业人才大赛-视觉艺术设计赛全国总决赛视频设计类三等奖。",
     },
-    {
-      title: "大学本科",
-      company: "浙江科技大学",
-      year: "2021-2025",
-      companyLink: "https://www.zust.edu.cn/",
-      desc: "信息与电子工程学院，数字媒体技术专业。班长，预备党员，GPA3.55，前10%。",
-    },
+
     {
       title: "国家奖学金",
       company: "宁波市职业技术教育中心学校",
