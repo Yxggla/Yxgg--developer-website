@@ -20,22 +20,22 @@ const userData = {
     {
       title: "Flutter-财票通App",
       link: "https://github.com/Yxggla/cptapp",
-      imgUrl: "/portfolio.png",
-    },
-    {
-      title: "Unity-SteamVR小游戏",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
-    },
-    {
-      title: "Unity-逃生太空站小游戏",
-      link: "https://github.com/Yxggla/Unity-last-and-least",
-      imgUrl: "/algochurn.png",
+      imgUrl: "/FlutterCPT.png",
     },
     {
       title: "Flutter-健身记录App",
       link: "https://github.com/Yxggla/FlutterJs",
-      imgUrl: "/playground.png",
+      imgUrl: "/FlutterJs.png",
+    },
+    {
+      title: "Unity-SteamVR小游戏",
+      link: "https://covidrescue.co.in",
+      imgUrl: "/UnityVR.png",
+    },
+    {
+      title: "Unity-逃生太空站小游戏",
+      link: "https://github.com/Yxggla/Unity-last-and-least",
+      imgUrl: "/Unity-1.png",
     },
     {
       title: "交互动画-OpenAI的人工智能技术简介",
