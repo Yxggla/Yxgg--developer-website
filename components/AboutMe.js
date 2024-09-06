@@ -43,7 +43,7 @@ export default function AboutMe() {
                 工作机会
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-              我在寻找合适的工作机会，如果有合适的工作岗位可以查看我的{" "}
+                我在寻找合适的工作机会，如果有合适的工作岗位可以查看我的{" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -193,10 +193,10 @@ export default function AboutMe() {
                 </div>
               </div>
 
-              {/* 影视游戏设计 */}
+              {/* 影视和游戏设计 */}
               <div className="flex flex-col mb-8">
                 <h2 className="text-xl font-semibold mb-4 ml-2">
-                  影视游戏设计
+                  影视和游戏设计
                 </h2>
                 <div className="flex flex-row flex-wrap">
                   <div className="flex flex-col items-center mx-6  my-4">
