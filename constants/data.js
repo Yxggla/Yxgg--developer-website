@@ -124,7 +124,7 @@ const userData = {
       company: "工业和信息化部人才交流中心",
       year: "2022-08-09",
       companyLink:
-        "https://github.com/user-attachments/assets/6850e9b9-a429-461b-a9c7-65db3d8b80c5",
+        "https://github.com/user-attachments/assets/820d9ed1-6495-4807-90c4-22b1753ef837",
       desc: "人工智能计算机视觉架构师中级证书",
     },
     {
