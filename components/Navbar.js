@@ -30,6 +30,31 @@ export default function Navbar() {
 
         <div className="space-x-8 hidden md:block">
           <Link
+            href="/"
+            className={`text-base  ${
+              router.asPath === "/"
+                ? "text-gray-800 font-bold dark:text-gray-400"
+                : "text-gray-600 dark:text-gray-300 font-normal "
+            }`}
+          >
+            主页{" "}
+            {router.asPath === "/" && (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-down inline-block h-3 w-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                />
+              </svg>
+            )}
+          </Link>
+          <Link
             href="/about"
             className={`text-base  ${
               router.asPath === "/about"
@@ -167,6 +192,12 @@ export default function Navbar() {
         </div>
       </div>
       <div className="space-x-8 block md:hidden mt-4">
+        <Link
+          href="/"
+          className="text-base font-normal text-gray-600 dark:text-gray-300"
+        >
+          主页
+        </Link>
         <Link
           href="/about"
           className="text-base font-normal text-gray-600 dark:text-gray-300"

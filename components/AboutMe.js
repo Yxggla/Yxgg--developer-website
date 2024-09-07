@@ -43,7 +43,7 @@ export default function AboutMe() {
                 工作机会
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                我在寻找合适的工作机会，如果有合适的工作岗位可以查看我的{" "}
+                如果有合适的工作岗位可以查看我的{" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -65,6 +65,27 @@ export default function AboutMe() {
                 {desc}
               </p>
             ))}
+            <h1 className="bg-red-500 text-3xl rounded-md px-6 py-2 inline-block font-bold text-gray-50 mt-6">
+              大学主修课程内容
+            </h1>
+
+            <div className="mt-4">
+              {userData.about.MajorCourse.map((category, idx) => (
+                <div key={idx} className="mb-6">
+                  <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-2">
+                    {category[0]}
+                  </h2>
+                  {category.slice(1).map((course, courseIdx) => (
+                    <p
+                      key={courseIdx}
+                      className="text-xl text-gray-700 dark:text-gray-300"
+                    >
+                      {course}
+                    </p>
+                  ))}
+                </div>
+              ))}
+            </div>
 
             <h1 className="bg-red-500 text-3xl rounded-md px-6 py-2 inline-block font-bold text-gray-50 mt-6">
               技术栈
@@ -283,6 +304,13 @@ export default function AboutMe() {
                       className="h-12 w-12"
                     />
                     <p className="mt-4 text-sm">Xcode</p>
+                  </div>
+                  <div className="flex flex-col items-center mx-6 my-4">
+                    <img
+                      src="https://api.iconify.design/logos:figma.svg"
+                      className="h-12 w-12"
+                    />
+                    <p className="mt-4 text-sm">Figma</p>
                   </div>
                 </div>
               </div>
