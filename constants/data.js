@@ -123,7 +123,8 @@ const userData = {
       title: "获得证书",
       company: "工业和信息化部人才交流中心",
       year: "2022-08-09",
-      companyLink: "https://www.fytest.com/",
+      companyLink:
+        "https://github.com/user-attachments/assets/6850e9b9-a429-461b-a9c7-65db3d8b80c5",
       desc: "人工智能计算机视觉架构师中级证书",
     },
     {
@@ -137,7 +138,7 @@ const userData = {
       title: "蓝桥杯大赛（B类）",
       company: "视觉艺术设计赛 队长",
       year: "2022-06",
-      companyLink: "https://upes.co.in",
+      companyLink: "https://github.com/Yxggla/Hello-future-2022",
       desc: "作品《你好 未来》荣获第十三届蓝桥杯全国软件和信息技术专业人才大赛-视觉艺术设计赛全国总决赛视频设计类三等奖。",
     },
   ],
