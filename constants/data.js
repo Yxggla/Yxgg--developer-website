@@ -102,21 +102,22 @@ const userData = {
       title: "蓝桥杯大赛（B类）",
       company: "视觉艺术设计赛 队长",
       year: "2023-06",
-      companyLink: "https://upes.co.in",
+      companyLink:
+        "https://github.com/Yxggla/Connect-you-and-me-connect-the-world-2023",
       desc: "作品《连接你我、连通世界》荣获第十四届蓝桥杯全国软件和信息技术专业人才大赛-视觉艺术设计赛全国总决赛视频设计类三等奖。",
     },
     {
       title: "浙江省大学生多媒体作品设计竞赛（A类）",
       company: "微电影赛道 队长",
       year: "2022-12",
-      companyLink: "https://tailwindmasterkit.com",
+      companyLink: "https://github.com/Yxggla/Dawn-and-light-2022",
       desc: "《黎明曙光》在2022年第二十一届浙江省大学生多媒体作品设计竞赛中荣获二等奖",
     },
     {
       title: "浙江省大学生摄影竞赛（A类）",
       company: "微视频商业类赛道 队长",
       year: "2022-10",
-      companyLink: "https://algochurn.com",
+      companyLink: "https://github.com/Yxggla/She-Yu-2022",
       desc: "作品《畲•裕》在2022年第十届浙江省大学生摄影竞赛中荣获三等奖",
     },
     {
