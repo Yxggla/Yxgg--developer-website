@@ -122,7 +122,7 @@ const userData = {
       desc: "信息与电子工程学院，数字媒体技术专业。班长，预备党员，GPA3.55，前10%。",
     },
     {
-      title: "前端开发实习生",
+      title: "前端开发实习生(AIGC)",
       company: "时代涌现信息科技（南京）有限公司",
       year: "2024-03～09",
       companyLink: "https://www.fancy.tech/",
