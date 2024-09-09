@@ -23,9 +23,20 @@ const userData = {
       imgUrl: "/FlutterCPT.png",
     },
     {
+      title: "Flutter-宋韵App",
+      link: "https://github.com/Yxggla/FlutterSy",
+      imgUrl:
+        "https://github.com/user-attachments/assets/4184f1e1-d4ec-4ef6-b4ca-316a6f147893",
+    },
+    {
       title: "Flutter-健身记录App",
       link: "https://github.com/Yxggla/FlutterJs",
       imgUrl: "/FlutterJs.png",
+    },
+    {
+      title: "交互动画-OpenAI的人工智能技术简介",
+      link: "https://github.com/Yxggla/-OpenAI-interactive-animation/",
+      imgUrl: "/OpenAI-interactive-animation.png",
     },
     {
       title: "Unity-SteamVR小游戏",
@@ -37,15 +48,41 @@ const userData = {
       link: "https://github.com/Yxggla/Unity-last-and-least",
       imgUrl: "/Unity-1.png",
     },
-    {
-      title: "交互动画-OpenAI的人工智能技术简介",
-      link: "https://github.com/Yxggla/-OpenAI-interactive-animation/",
-      imgUrl: "/OpenAI-interactive-animation.png",
-    },
+
     {
       title: "Blender-空间站",
       link: "https://github.com/Yxggla/BlenderKJZ",
       imgUrl: "/BlenderKJZ1.jpg",
+    },
+    {
+      title: "微电影-《海憩渔韵》",
+      link: "https://github.com/Yxggla/Sea-Recreation-and-Fishing-Rhyme-2023",
+      imgUrl:
+        "https://github.com/user-attachments/assets/87863fed-deb1-41bb-8e99-f5a688c2d976",
+    },
+    {
+      title: "A类竞赛省二-微电影-《黎明曙光》",
+      link: "https://github.com/Yxggla/Dawn-and-light-2022",
+      imgUrl:
+        "https://github.com/user-attachments/assets/bc058929-10a8-4b5d-b182-a19979420d69",
+    },
+    {
+      title: "A类竞赛省三-纪录片-《畲·裕》",
+      link: "https://github.com/Yxggla/She-Yu-2022",
+      imgUrl:
+        "https://github.com/user-attachments/assets/17fa4890-46e6-42be-8b04-b4e5c66dd428",
+    },
+    {
+      title: "B类竞赛国三-短片-《连接你我、连通世界》",
+      link: "https://github.com/Yxggla/Connect-you-and-me-connect-the-world-2023",
+      imgUrl:
+        "https://github.com/user-attachments/assets/068fe281-5941-4415-8675-8dc005d353c6",
+    },
+    {
+      title: "B类竞赛国三-短片-《你好 未来》",
+      link: "https://github.com/Yxggla/Hello-future-2022",
+      imgUrl:
+        "https://github.com/user-attachments/assets/24afcd77-2a1e-4848-8ffd-acf97692ce6d",
     },
   ],
   about: {
@@ -92,11 +129,26 @@ const userData = {
       desc: "FancyTech成立于2020年，致力于通过自主研发的AIGC技术在商业领域实现更广泛的商业价值。。<br />主要参与remotion的视频模板编写，海外官网，后台模板库。<br />1. 熟练利用css动画制作remotion视频模板，与设计团队合作，编写可复用的remotion模板。<br />2. 参与使用Next.js开发的公司海外官网制作，主要技术栈使用React,TS,Tailwind,Sass。<br />3. 参与开发后台模板库，主要技术栈使用React,Tailwind,Sass,Axios,Zustand,Antd等。",
     },
     {
+      title: "中国共产党预备党员",
+      company: "浙江科技大学数媒专业学生党支部",
+      year: "2023-12",
+      companyLink: "https://itee.zust.edu.cn/djgz/zzjg.htm",
+      desc: "在校期间担任班长热心群众，表现突出，成功选举为中国共产党预备党员。通过党课学习和实践活动，进一步提升了思想觉悟和政治素养，坚定了为人民服务的信念。",
+    },
+    {
       title: "亚运会志愿者",
       company: "杭州第19届亚运会志愿者",
       year: "2023-10",
       companyLink: "https://www.hangzhou2022.cn/",
-      desc: "参与2022年杭州第19届亚运会志愿者，累计志愿时长达150小时",
+      desc: "参与2022年杭州第19届亚运会志愿者，累计志愿时长达150小时。同年12月荣获学院“优秀亚运志愿者”荣誉。",
+    },
+    {
+      title: "微电影《海憩渔韵》",
+      company: "微电影 队长",
+      year: "2023-07",
+      companyLink:
+        "https://github.com/Yxggla/Sea-Recreation-and-Fishing-Rhyme-2023",
+      desc: "《海憩渔韵》是一部以象山石浦为背景的宣传短片。影片通过诗意的表达和震撼的画面展现了海上日出的壮丽景象，带领观众领略象山石浦的独特风情，感受大海的诗篇与时代的光辉，找到内心的自由与舒展。",
     },
     {
       title: "蓝桥杯大赛（B类）",
