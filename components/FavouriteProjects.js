@@ -57,7 +57,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/Yxggla/DeepSeekAPI--Web--backend"
+            href="https://github.com/Yxggla/DeepSeekAPI--Web-backend"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
             target="_blank"
             rel="noopener noreferrer"
