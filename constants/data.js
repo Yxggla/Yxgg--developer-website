@@ -113,6 +113,60 @@ const userData = {
       "在兴趣的引导下，我现在可以为一个项目开发网页或APP。这种可视化的成果与影视创作有异曲同工之妙，带给我极大的成就感。",
     ],
   },
+  practice: [
+    {
+      title: "杭州亚运会志愿者",
+      company:
+        "杭州第19届亚运会志愿者，志愿时长161.83h。同年12月荣获学院“优秀亚运志愿者”荣誉。",
+      year: "2023-09-07~10-07",
+      imgUrl:
+        "https://github.com/user-attachments/assets/e0e3b894-a50d-46d8-8622-d257b304db94",
+      companyLink: "https://www.hangzhou2022.cn/",
+    },
+    {
+      title: "象山石浦沙塘湾村社会实践",
+      company: "宁波象山石浦沙塘湾村社会实践，调研了解乡村振兴并且拍摄微电影",
+      year: "2023-08",
+      imgUrl:
+        "https://github.com/user-attachments/assets/a1756e02-1d89-41b8-80a8-ae2d41344119",
+      companyLink:
+        "https://github.com/Yxggla/Sea-Recreation-and-Fishing-Rhyme-2023",
+    },
+    {
+      title: "杭州亚残运会测试赛",
+      company: "亚残运会测试赛培训志愿服务活动,累计志愿时长64.68h",
+      year: "2023-05-22～05-27",
+      imgUrl:
+        "https://github.com/user-attachments/assets/9e26d41b-f904-4e34-b1c1-82f9e6ca7e5b",
+      companyLink:
+        "https://baike.baidu.com/item/%E5%85%A8%E5%9B%BD%E6%AE%8B%E7%96%BE%E4%BA%BA%E7%94%B0%E5%BE%84%E9%94%A6%E6%A0%87%E8%B5%9B/63018278",
+    },
+    {
+      title: "西溪湿地志愿者服务",
+      company: "西溪湿地“小柿子”志愿者服务 志愿时长8h",
+      year: "2023-04-02",
+      imgUrl:
+        "https://github.com/user-attachments/assets/925fa104-773b-443b-8b7f-72b0993595bc",
+      companyLink: "http://www.xixiwetland.com.cn/",
+    },
+    {
+      title: "反诈达人秀",
+      company: "“平安亚运 全民反诈——反诈达人秀（杭州）”公益活动",
+      year: "2023-03-29",
+      desc: "由省反诈联席办、省公安厅新闻中心、杭州市反诈联席办、杭州市公安局警察公共关系处联合主办的“平安亚运 全民反诈——反诈达人秀（杭州）”公益活动在杭举办。我院2022年度浙江省大学生多媒体省级A类竞赛获奖作品《反诈无国界》（指导老师：宋蔚，陈婧赟），《黎明曙光》（指导老师：唐伟，陈婧赟）主创学生代表——数字媒体技术专业的中外学生董一孝、Daniel （巴拿马）受邀参加现场访谈、展示，受到了与会人员的认可和鼓励。",
+      imgUrl:
+        "https://github.com/user-attachments/assets/6ac67106-2a46-4474-90e6-caa05f353b13",
+      companyLink: "https://mp.weixin.qq.com/s/txKcSReGuVR5l6Q0qdpaFA",
+    },
+    {
+      title: "博物院咨询引导志愿服务",
+      company: "浙江省自然博物院安吉馆 志愿时长6.32h",
+      year: "2021-11-20",
+      imgUrl:
+        "https://github.com/user-attachments/assets/5b804368-bada-4f62-9c8c-9d2a2d84007f",
+      companyLink: "https://www.zmnh.cn/",
+    },
+  ],
   experience: [
     {
       title: "大学本科",
@@ -134,13 +188,6 @@ const userData = {
       year: "2023-12",
       companyLink: "https://itee.zust.edu.cn/djgz/zzjg.htm",
       desc: "在校期间担任班长热心群众，表现突出，成功选举为中国共产党预备党员。通过党课学习和实践活动，进一步提升了思想觉悟和政治素养，坚定了为人民服务的信念。",
-    },
-    {
-      title: "亚运会志愿者",
-      company: "杭州第19届亚运会志愿者",
-      year: "2023-10",
-      companyLink: "https://www.hangzhou2022.cn/",
-      desc: "参与2022年杭州第19届亚运会志愿者，累计志愿时长达150小时。同年12月荣获学院“优秀亚运志愿者”荣誉。",
     },
     {
       title: "微电影《海憩渔韵》",

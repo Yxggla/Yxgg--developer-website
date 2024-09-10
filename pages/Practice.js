@@ -1,11 +1,11 @@
 import React from "react";
 import ContainerBlock from "../components/ContainerBlock";
-import Contact from "../components/Contact";
+import Practice from "../components/Practice";
 
 export default function contact() {
   return (
     <ContainerBlock>
-      <Contact />
+      <Practice />
     </ContainerBlock>
   );
 }

@@ -130,15 +130,15 @@ export default function Navbar() {
             )}
           </Link>
           <Link
-            href="/contact"
+            href="/Practice"
             className={`text-base  ${
-              router.asPath === "/contact"
+              router.asPath === "/Practice"
                 ? "text-gray-800 font-bold dark:text-gray-400"
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
-            联系
-            {router.asPath === "/contact" && (
+            实践
+            {router.asPath === "/Practice" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -217,10 +217,10 @@ export default function Navbar() {
           经历
         </Link>
         <Link
-          href="/contact"
+          href="/Practice"
           className="text-base font-normal text-gray-600 dark:text-gray-300"
         >
-          联系
+          实践
         </Link>
       </div>
     </div>
