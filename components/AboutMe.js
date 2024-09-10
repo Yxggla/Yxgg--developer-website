@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import userData from "@constants/data";
 
 export default function AboutMe() {
+  const [showCourses, setShowCourses] = useState(false);
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -61,31 +62,36 @@ export default function AboutMe() {
               <p
                 key={idx}
                 className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
-              >
-                {desc}
-              </p>
+                dangerouslySetInnerHTML={{ __html: desc }}
+              ></p>
             ))}
-            <h1 className="bg-red-500 text-3xl rounded-md px-6 py-2 inline-block font-bold text-gray-50 mt-6">
-              大学主修课程内容
+            <h1
+              className="bg-red-500 text-3xl rounded-md px-6 py-2 inline-block font-bold text-gray-50 mt-6 cursor-pointer hover:bg-red-600"
+              onClick={() => setShowCourses(!showCourses)}
+            >
+              大学主修课程内容 &gt;&gt;
             </h1>
 
-            <div className="mt-4">
-              {userData.about.MajorCourse.map((category, idx) => (
-                <div key={idx} className="mb-6">
-                  <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-2">
-                    {category[0]}
-                  </h2>
-                  {category.slice(1).map((course, courseIdx) => (
-                    <p
-                      key={courseIdx}
-                      className="text-xl text-gray-700 dark:text-gray-300"
-                    >
-                      {course}
-                    </p>
-                  ))}
-                </div>
-              ))}
-            </div>
+            {showCourses && (
+              <div className="mt-4">
+                {userData.about.MajorCourse.map((category, idx) => (
+                  <div key={idx} className="mb-6">
+                    <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-2">
+                      {category[0]}
+                    </h2>
+                    {category.slice(1).map((course, courseIdx) => (
+                      <p
+                        key={courseIdx}
+                        className="text-xl text-gray-700 dark:text-gray-300"
+                      >
+                        {course}
+                      </p>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            )}
+            <br />
 
             <h1 className="bg-red-500 text-3xl rounded-md px-6 py-2 inline-block font-bold text-gray-50 mt-6">
               技术栈
