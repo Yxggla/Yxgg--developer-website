@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "Yxggla",
   name: "董一孝",
   designation: "Yxggla个人网站",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/AiMyself.jpg",
   email: "yxggzhk@gmail.com",
   phone: "+86 13957495770",
   address: "杭州市, 浙江省, 中国",
