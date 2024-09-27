@@ -10,12 +10,12 @@ const userData = {
     {
       title: "React-前端-类ChatGpt项目",
       link: "https://github.com/Yxggla/DeepSeekAPI-ViteTsReact",
-      imgUrl: "/tmk.jpg",
+      imgUrl: "/react-web.png",
     },
     {
       title: "Nodejs-后端-类ChatGpt项目",
       link: "https://github.com/Yxggla/DeepSeekAPI--Web-backend",
-      imgUrl: "/placeholdertech.png",
+      imgUrl: "/backend-web.png",
     },
     {
       title: "Flutter-财票通App",
@@ -174,7 +174,7 @@ const userData = {
       company: "浙江科技大学",
       year: "2021-2025",
       companyLink: "https://www.zust.edu.cn/",
-      desc: "信息与电子工程学院，数字媒体技术专业。班长，预备党员，GPA3.55，前10%。",
+      desc: "信息与电子工程学院，数字媒体技术专业。班长，预备党员，GPA3.55，绩点专业前10%，综测两年第一。",
     },
     {
       title: "前端开发实习生(AIGC)",
