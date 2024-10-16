@@ -46,11 +46,19 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 如果有合适的工作岗位可以查看我的{" "}
                 <a
-                  href={userData.resumeUrl}
+                  href={userData.resumeUrl1}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  简历
+                  前端简历
+                </a>{" "}
+                和{" "}
+                <a
+                  href={userData.resumeUrl2}
+                  target="__blank"
+                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                >
+                  视频制作简历
                 </a>{" "}
                 ，我很愿意参与其中。
               </p>
