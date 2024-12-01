@@ -174,7 +174,14 @@ const userData = {
       company: "浙江科技大学",
       year: "2021-2025",
       companyLink: "https://www.zust.edu.cn/",
-      desc: "信息与电子工程学院，数字媒体技术专业。班长，预备党员，GPA3.55，绩点专业前10%，综测连续两年第一。",
+      desc: "信息与电子工程学院，数字媒体技术专业。班长，中共党员，GPA3.55，绩点专业前10%，综测连续两年第一。",
+    },
+    {
+      title: "中国共产党正式党员",
+      company: "浙江科技大学数媒专业学生党支部",
+      year: "2024-12",
+      companyLink: "https://itee.zust.edu.cn/djgz/zzjg.htm",
+      desc: "在预备期间担任班长热心群众，表现突出，成功选举为中国共产党正式党员。通过党课学习和实践活动，进一步提升了思想觉悟和政治素养，坚定了为人民服务的信念。",
     },
     {
       title: "前端开发实习生(AIGC)",
@@ -243,8 +250,8 @@ const userData = {
       desc: "作品《你好 未来》荣获第十三届蓝桥杯全国软件和信息技术专业人才大赛-视觉艺术设计赛全国总决赛视频设计类三等奖。",
     },
   ],
-  resumeUrl1: "https://github.com/user-attachments/files/17390878/default.pdf", //前端
-  resumeUrl2: "https://github.com/user-attachments/files/17390876/default.pdf", //视频
+  resumeUrl1: "https://github.com/user-attachments/files/17968372/default.pdf", //前端
+  resumeUrl2: "https://github.com/user-attachments/files/17968373/default.pdf", //视频
   socialLinks: {
     github: "https://github.com/Yxggla",
   },
