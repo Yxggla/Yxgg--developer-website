@@ -250,8 +250,8 @@ const userData = {
       desc: "作品《你好 未来》荣获第十三届蓝桥杯全国软件和信息技术专业人才大赛-视觉艺术设计赛全国总决赛视频设计类三等奖。",
     },
   ],
-  resumeUrl1: "https://github.com/user-attachments/files/17968372/default.pdf", //前端
-  resumeUrl2: "https://github.com/user-attachments/files/17968373/default.pdf", //视频
+  resumeUrl1: "https://github.com/user-attachments/files/18225838/default.pdf", //前端
+  resumeUrl2: "https://github.com/user-attachments/files/18225854/default.pdf", //视频
   socialLinks: {
     github: "https://github.com/Yxggla",
   },
