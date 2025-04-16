@@ -170,11 +170,32 @@ const userData = {
   ],
   experience: [
     {
+      title: "硕士研究生(研0)",
+      company: "北师香港浸会大学",
+      year: "2025-2026",
+      companyLink: "https://uic.edu.cn/",
+      desc: "全日制研究生，人工智能与数码媒体专修。",
+    },
+    {
       title: "大学本科",
       company: "浙江科技大学",
       year: "2021-2025",
       companyLink: "https://www.zust.edu.cn/",
-      desc: "信息与电子工程学院，数字媒体技术专业。班长，中共党员，GPA3.55，绩点专业前10%，综测连续两年第一。",
+      desc: "信息与电子工程学院，数字媒体技术专业。班长，中共党员，GPA3.62，绩点专业前10%，综测连续两年第一。",
+    },
+    {
+      title: "软件工程师",
+      company: "杭州迪萌科技有限公司",
+      year: "2024-12～至今",
+      companyLink: "https://uipaas.ai/",
+      desc: "参与开发“UIPaaS”智能建站平台。<br />主要参与HTML to UIPaaS Chrome插件开发，Figma to UIPaaS插件优化，断点变体结构更新，UI组件配置等。",
+    },
+    {
+      title: "视频拍剪实习生",
+      company: "杭州鲸遇科技有限公司",
+      year: "2024-11～12",
+      // companyLink: "https://www.zust.edu.cn/",
+      desc: "参与拍摄蚂蚁集团“光合作用”,“蚂蚁20周年”活动等。",
     },
     {
       title: "中国共产党正式党员",
@@ -188,7 +209,7 @@ const userData = {
       company: "时代涌现信息科技（南京）有限公司",
       year: "2024-03～09",
       companyLink: "https://www.fancy.tech/",
-      desc: "FancyTech成立于2020年，致力于通过自主研发的AIGC技术在商业领域实现更广泛的商业价值。。<br />主要参与remotion的视频模板编写，海外官网，后台模板库。<br />1. 熟练利用css动画制作remotion视频模板，与设计团队合作，编写可复用的remotion模板。<br />2. 参与使用Next.js开发的公司海外官网制作，主要技术栈使用React,TS,Tailwind,Sass。<br />3. 参与开发后台模板库，主要技术栈使用React,Tailwind,Sass,Axios,Zustand,Antd等。",
+      desc: "FancyTech成立于2020年，致力于通过自主研发的AIGC技术在商业领域实现更广泛的商业价值。<br />主要参与remotion的视频模板编写，海外官网，后台模板库。<br />1. 熟练利用css动画制作remotion视频模板，与设计团队合作，编写可复用的remotion模板。<br />2. 参与使用Next.js开发的公司海外官网制作，主要技术栈使用React,TS,Tailwind,Sass。<br />3. 参与开发后台模板库，主要技术栈使用React,Tailwind,Sass,Axios,Zustand,Antd等。",
     },
     {
       title: "中国共产党预备党员",
