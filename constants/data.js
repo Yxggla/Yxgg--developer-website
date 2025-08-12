@@ -187,8 +187,8 @@ const userData = {
       title: "软件工程师",
       company: "杭州迪萌科技有限公司",
       year: "2024-12～至今",
-      companyLink: "https://uipaas.ai/",
-      desc: "参与开发“UIPaaS”智能建站平台。<br />主要参与HTML to UIPaaS Chrome插件开发，Figma to UIPaaS插件优化，断点变体结构更新，UI组件配置等。",
+      companyLink: "https://deamoy.ai/",
+      desc: "参与开发“Deamoy”智能建站平台。<br />主要开发HTML to Deamoy Chrome插件，Figma to Deamoy迭代，Tailwind数据转换，断点变体结构迭代，UI组件配置等。",
     },
     {
       title: "视频拍剪实习生",
