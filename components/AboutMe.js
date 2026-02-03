@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import userData from "@constants/data";
 
 export default function AboutMe() {
-  const [showCourses, setShowCourses] = useState(false);
+  const [showUndergraduateCourses, setShowUndergraduateCourses] = useState(false);
+  const [showGraduateCourses, setShowGraduateCourses] = useState(false);
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -50,16 +51,16 @@ export default function AboutMe() {
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  前端简历
+                  简历
                 </a>{" "}
-                和{" "}
+                {/* 和{" "}
                 <a
                   href={userData.resumeUrl2}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  视频制作简历
-                </a>{" "}
+                  视频制作简历 */}
+                {/* </a>{" "} */}
                 ，我很愿意参与其中。
               </p>
             </div>
@@ -74,27 +75,52 @@ export default function AboutMe() {
               ></p>
             ))}
             <h1
-              className="bg-red-500 text-3xl rounded-md px-6 py-2 inline-block font-bold text-gray-50 mt-6 cursor-pointer hover:bg-red-600"
-              onClick={() => setShowCourses(!showCourses)}
+              className="bg-red-500 text-3xl rounded-md px-6 py-2 inline-block font-bold text-gray-50 mt-6 cursor-pointer hover:bg-red-600 transition-colors"
+              onClick={() => setShowUndergraduateCourses(!showUndergraduateCourses)}
             >
-              大学主修课程内容 &gt;&gt;
+              本科主修课程内容 {showUndergraduateCourses ? "▼" : "▶"}
             </h1>
 
-            {showCourses && (
-              <div className="mt-4">
-                {userData.about.MajorCourse.map((category, idx) => (
+            {showUndergraduateCourses && (
+              <div className="mt-4 animate-fadeIn">
+                {userData.about.MajorCourse1.map((category, idx) => (
                   <div key={idx} className="mb-6">
                     <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-2">
                       {category[0]}
                     </h2>
-                    {category.slice(1).map((course, courseIdx) => (
-                      <p
-                        key={courseIdx}
-                        className="text-xl text-gray-700 dark:text-gray-300"
-                      >
-                        {course}
-                      </p>
-                    ))}
+                    <p className="text-xl text-gray-700 dark:text-gray-300">
+                      {category[1]}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
+            <br />
+
+            <h1
+              className="bg-red-500 text-3xl rounded-md px-6 py-2 inline-block font-bold text-gray-50 mt-6 cursor-pointer hover:bg-red-600 transition-colors"
+              onClick={() => setShowGraduateCourses(!showGraduateCourses)}
+            >
+              硕士期间学习课程内容 {showGraduateCourses ? "▼" : "▶"}
+            </h1>
+
+            {showGraduateCourses && (
+              <div className="mt-4 animate-fadeIn">
+                {userData.about.MajorCourse2.map((category, idx) => (
+                  <div key={idx} className="mb-6">
+                    <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-4">
+                      {category[0]}
+                    </h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {category[1].split(",").map((course, courseIdx) => (
+                        <div
+                          key={courseIdx}
+                          className="text-lg text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-800 px-4 py-2 rounded-md"
+                        >
+                          {course.trim()}
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 ))}
               </div>
