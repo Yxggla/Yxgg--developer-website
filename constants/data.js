@@ -8,6 +8,21 @@ const userData = {
   address: "杭州市, 浙江省, 中国",
   projects: [
     {
+      title: "Automated-Health-Workout-Insight-CMS",
+      link: "https://github.com/Yxggla/Automated-Health-Workout-Insight-CMS",
+      imgUrl: "/Automated-Health-Workout-Insight-CMS.png",
+    },
+    {
+      title: "python-crypto-price-predict",
+      link: "https://github.com/Yxggla/python-crypto-price-predict",
+      imgUrl: "/python-crypto-price-predict.png",
+    },
+    {
+      title: "vegetable-web",
+      link: "https://github.com/Yxggla/vegetable-web",
+      imgUrl: "/vegetable-web.png",
+    },
+    {
       title: "React-前端-类Chat GPT项目",
       link: "https://github.com/Yxggla/DeepSeekAPI-ViteTsReact",
       imgUrl: "/react-web.png",
@@ -170,11 +185,11 @@ const userData = {
   ],
   experience: [
     {
-      title: "硕士研究生(研0)",
+      title: "硕士研究生",
       company: "北师香港浸会大学",
       year: "2025-2026",
       companyLink: "https://uic.edu.cn/",
-      desc: "全日制研究生，人工智能与数码媒体专修。",
+      desc: "全日制研究生，人工智能与数码媒体专修。GPA 3.8/4.0",
     },
     {
       title: "大学本科",
