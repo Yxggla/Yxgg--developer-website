@@ -8,12 +8,12 @@ const userData = {
   address: "杭州市, 浙江省, 中国",
   projects: [
     {
-      title: "React-前端-类ChatGpt项目",
+      title: "React-前端-类Chat GPT项目",
       link: "https://github.com/Yxggla/DeepSeekAPI-ViteTsReact",
       imgUrl: "/react-web.png",
     },
     {
-      title: "Nodejs-后端-类ChatGpt项目",
+      title: "Nodejs-后端-类Chat GPT项目",
       link: "https://github.com/Yxggla/DeepSeekAPI--Web-backend",
       imgUrl: "/backend-web.png",
     },
@@ -186,9 +186,9 @@ const userData = {
     {
       title: "软件工程师",
       company: "杭州迪萌科技有限公司",
-      year: "2024-12～至今",
+      year: "2024-12～2025-10",
       companyLink: "https://deamoy.ai/",
-      desc: "参与开发“Deamoy”智能建站平台。<br />主要开发HTML to Deamoy Chrome插件，Figma to Deamoy迭代，Tailwind数据转换，断点变体结构迭代，UI组件配置等。",
+      desc: "Deamoy — AI 驱动的网站与应用构建平台，支持自然语言生成并可视化编辑。<br />1. 负责 Figma to Deamoy 与 HTML to Deamoy 两个插件的开发与维护，实现设计稿与 HTML 页面一键转换为 Deamoy 平台可编辑结构，提升页面构建与原型生成效率。<br />2. 基于 Tailwind CSS 响应式断点体系，重构平台变体实现逻辑，提升 AI 生成页面的响应式一致性。<br />3. 参与平台底层样式系统重构，将原有默认 Style 样式方案迁移为 Tailwind Token 设计体系，并支持 Tailwind 与原样式结构之间的双向映射与兼容。<br />4. 参与 AI Agent Prompt 重构，结合自定协议与 patch 规则，优化节点生成、变体响应式与样式 Token 约束，提升生成页面的结构一致性。<br />5. 基于 Remix 框架开发迭代 Deamoy 官方网站，提升官网性能与多设备适配性。",
     },
     {
       title: "视频拍剪实习生",
