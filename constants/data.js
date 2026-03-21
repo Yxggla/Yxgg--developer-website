@@ -193,10 +193,10 @@ const userData = {
   experience: [
     {
       title: "硕士研究生",
-      company: "北师香港浸会大学",
+      company: "北师香港浸会大学 ",
       year: "2025-2026",
       companyLink: "https://uic.edu.cn/",
-      desc: "全日制研究生，人工智能与数码媒体专修。GPA 3.8/4.0",
+      desc: "理工科技学院，人工智能与数码媒体专修。GPA 3.8/4.0，二等奖学金。",
     },
     {
       title: "大学本科",
